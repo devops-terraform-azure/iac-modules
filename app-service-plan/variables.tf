@@ -30,6 +30,6 @@ variable "sku_name" {
 
 variable "tags" {
   description = "A mapping of tags which should be assigned to the AppService."
-  type        = map()
+  type        = map(string)
   default     = {}
 }
